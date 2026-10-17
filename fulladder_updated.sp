@@ -1,4 +1,4 @@
-.include xor.sp
+.include xor2x1.sp
 * xor2x1 a b y
 .include and.sp
 * and a b y 
