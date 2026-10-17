@@ -19,8 +19,8 @@
 
 * two xor, two and, one or
 * xor1, xor2
-Xxor1 a b xout1 xor
-Xxor2 xout1 cin s xor
+Xxor1 a b xout1 xor2x1
+Xxor2 xout1 cin s xor2x1
 
 * out1 output of xor1
 * and1 for out1, cin
