@@ -13,7 +13,7 @@ M1 out a vdd vdd tp L=5e-7 W=5.6e-7
 M2 out a n0 vss tn L=6e-7 W=3.6e-7
 M3 n0 b vss vss tn L=6e-7 W=3.6e-7
 
-* .model tn nmos level=54 version=4.8.2 TOXE=8.00n
-* .model tp pmos level=54 version=4.8.2 TOXE=7.90n
+.model tn nmos level=54 version=4.8.2 TOXE=8.00n
+.model tp pmos level=54 version=4.8.2 TOXE=7.90n
 
 .ends
