@@ -1,5 +1,5 @@
 .include rca_2.sp
-*.subckt rca_2 a0 b0 cin a1 b1 s0 s1 cout
+*.subckt rca_2 a0 b0 a1 b1 cin s0 s1 cout
 .global vdd vss
 
 Vdd vdd vss dc 3.3
@@ -13,12 +13,11 @@ Vb1  b1  0 pulse(0 3.3 0 100p 100p 80n  160n)
 Vcin cin 0 pulse(0 3.3 0 100p 100p 160n 320n)
 .tran 10p 320n
 
-Xdut a0 b0 cin a1 b1 s0 s1 cout rca_2
-
+Xdut a0 b0 a1 b1 cin s0 s1 cout rca_2
 
 .control
 run
-hardcopy rca_2.ps v(a0)+28 v(b0)+24 v(cin)+20 v(a1)+16 v(b1)+12 v(s0)+8 v(s1)+4 v(cout)
+hardcopy rca_2.ps v(a0)+28 v(b0)+24 v(a1)+20 v(b1)+16 v(cin)+12 v(s0)+8 v(s1)+4 v(cout)
 .endc
 
 .end
