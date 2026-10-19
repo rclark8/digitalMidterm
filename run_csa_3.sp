@@ -1,6 +1,5 @@
 .include csa_3.sp
 *.subckt csa_3 a0 b0 a1 b1 a2 b2 cin s0 s1 s2 yout
-
 .global vdd vss
 
 Vdd vdd vss dc 3.3
