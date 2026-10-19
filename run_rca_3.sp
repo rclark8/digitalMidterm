@@ -22,5 +22,4 @@ run
 hardcopy rca_3.ps v(a0) v(b0)+4 v(a1)+8 v(b1)+12 v(a2)+16 v(b2)+20 v(cin)+24 v(s0)+28 v(s1)+32 v(s2)+36 v(cout)+40
 
 .endc
-
 .end
